@@ -24,5 +24,10 @@ public class Application {
         float valueFloat2 = 1.25F;
         float res5 = valueFloat1 + valueFloat2;
         System.out.println(res5);
+        
+        short valueShort1 = 1;
+        short valueShort2 = 2;
+        short res6 = (short) (valueShort1 + valueShort2);
+        System.out.println(res6);
     }
 }
